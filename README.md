@@ -1,11 +1,11 @@
 # NLPExercise
-An exercise for the NLP lesson in Artificial Intelligence MSc Program
+An exercise for the NLP lesson in Artificial Intelligence MSc Program in Democritus.
 
-# First part
+## First part
 
 The first part consists of the files En_core_web_sm.ipynb, NTLK_method.ipynb, bert_base_case_method.ipynb.This is the first part of an exercise that involves tokenizing a set of texts using three different methods and analyzing the resulting token frequencies.  The repository contains the completed code for tokenization using nltk.word_tokenize(), en_core_web_sm model from spaCy, and BertTokenizer from HuggingFace, as well as the analysis of token frequencies, including the number of tokens and unique tokens found, a randomly selected sentence and its token list, a table with the 20 most frequent tokens, and a log-log plot comparing the actual frequencies to Zipf's predictions with the best value of the constant A.
 
-# Second part
+## Second part
 
 The second part consists of the bigram and trigram models.
 
