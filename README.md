@@ -16,3 +16,6 @@ During the training phase, we replaced all tokens that appear in the training se
 We then evaluated the models on the evaluation set, computing their perplexity both on the original text and on a lowercased version of the text. We also generated three new sentences using each model, sampling words based on their probability according to the model.
 
 Overall, this exercise provided a hands-on experience with training and evaluating language models, and allowed us to explore the impact of n-gram size, smoothing, and lowercasing on their performance.
+
+## Authors
+This code was created by Konstantinos Chaldaiopoulos
