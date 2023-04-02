@@ -9,7 +9,7 @@ The first part consists of the files En_core_web_sm.ipynb, NTLK_method.ipynb, be
 
 The second part consists of the bigram and trigram models.
 
-In the second part, we were asked to train and evaluate n-gram language models on a collection of 199 news articles from the Wall Street Journal, using the first 170 articles for training and the remaining 29 for evaluation. Specifically, we trained four models with different n-gram sizes and smoothing parameters, and evaluated their performance using the perplexity metric.
+In the second part, we were asked to train and evaluate bigram and trigram language models on a collection of 199 news articles from the Wall Street Journal, using the first 170 articles for training and the remaining 29 for evaluation. Specifically, we trained four models with bigram and trigram sizes for uppercase and lowercase letters and smoothing parameters of k=1 and k=0.01, and evaluated their performance using the perplexity metric.
 
 During the training phase, we replaced all tokens that appear in the training set less than three times with the special token "<UNK>", and added all remaining tokens to the model's vocabulary. We also added special tokens "<BOS>" and "<EOS>" to mark the beginning and end of each sentence, respectively.
 
