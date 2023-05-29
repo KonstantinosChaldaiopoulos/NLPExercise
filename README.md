@@ -18,4 +18,4 @@ We then evaluated the models on the evaluation set, computing their perplexity b
 Overall, this exercise provided a hands-on experience with training and evaluating language models, and allowed us to explore the impact of n-gram size, smoothing, and lowercasing on their performance.
 
 ## Authors
-This code was created by Konstantinos Chaldaiopoulos
+This repository was created by Konstantinos Chaldaiopoulos
